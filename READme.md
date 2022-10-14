@@ -18,7 +18,7 @@ The main goal of the app was to get familiar with ReactJS and REST API.
 
 Project is created with:
 
-- ReactJS 18.2.0
+- React 18.2.0
 - <a href="https://exchangerate.host/#/">Exchangerate Host </a>
 - Vite 3.1.0
 
@@ -34,9 +34,9 @@ This project was bootstrapped with [Vite tool](https://vitejs.dev/).
 
 ### Available Scripts
 
-In the project directory, you can run:
+Follow the guidelines in Command Prompt and run:
 
-<pre>npm start</pre>
+<pre>npm run dev</pre>
 
 Runs the app in the development mode.<br />
 Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in the browser.
