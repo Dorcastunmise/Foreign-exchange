@@ -1,0 +1,65 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  background-color: #282c34;
+  color: #fafafa;
+  min-height: 100vh;
+}
+header {
+  background: linear-gradient(
+    to right, 
+    rgb(61, 255, 232), 
+    rgb(63, 46, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.card {
+  border: 1px solid #3f3f3f;
+  padding: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 20px;
+}
+.card:hover {
+  border: 1px solid #3f3f3f;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-weight: 400;
+  background: linear-gradient(90deg, #46299b 1.18%, #8768f8 100%);
+}
+.input {
+  width: 100%;
+  max-width: 240px;
+  margin-top: 10px;
+  padding: 0.7rem 1.3rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+}
+.app input:active {
+    outline: none;
+    border: none;
+}
+  
+::placeholder {
+    color: #f8f8f8;
+}
+.my {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.rate {
+  margin-left: 12px;
+}
