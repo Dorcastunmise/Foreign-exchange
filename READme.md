@@ -32,7 +32,7 @@ Project is created with:
 
 This project was bootstrapped with [Vite tool](https://vitejs.dev/).
 
-### Available Scripts
+### Guidelines
 
 Follow the guidelines in Command Prompt and run:
 
